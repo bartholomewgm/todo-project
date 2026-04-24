@@ -1,5 +1,6 @@
 from django.urls import path
+from .views import task_list
 
 urlpatterns = [
-    # пока пусто (позже добавим views)
+    path('', task_list),
 ]
